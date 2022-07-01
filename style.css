@@ -11,7 +11,7 @@ body{
     flex-direction: column;
 }
 
-/*NAVBAR*/
+/*-----NAVBAR-----*/
 
 .nav{
     display: flex;
@@ -50,17 +50,18 @@ body{
     font-family: 'Roboto', Arial;
 }
 
-/*Description*/
+/*-----Description-----*/
 
 .description{
     display: flex;
     background-color: #291d1d;
     align-items: center;
     justify-content: center;
-    padding: 80px;
+    padding: 90px;
 }
 
 .description1{
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
     text-align: left;
